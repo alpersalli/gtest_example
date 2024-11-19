@@ -1,0 +1,7 @@
+HelloTest.MultiplyTest 3 0.00620315
+MultiplyTest.Multiply_Success 8 0.00366606
+MultiplyTest.Multiply_SocketFailure 1 0.0294244
+MultiplyTest.Multiply_ByZero 6 0.00489767
+MultiplyTest.Multiply_NegativeNumbers 6 0.00503297
+MultiplyTest.Multiply_PositiveAndNegative 6 0.00509486
+---

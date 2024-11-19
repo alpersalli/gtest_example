@@ -1,0 +1,139 @@
+Start testing: Nov 20 02:02 +03
+----------------------------------------------------------
+1/5 Testing: MultiplyTest.Multiply_Success
+1/5 Test: MultiplyTest.Multiply_Success
+Command: "/mnt/c/Users/user/Desktop/TTECH/my_project/build/hello_test" "--gtest_filter=MultiplyTest.Multiply_Success" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/user/Desktop/TTECH/my_project/build
+"MultiplyTest.Multiply_Success" start time: Nov 20 02:02 +03
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MultiplyTest.Multiply_Success
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MultiplyTest
+[ RUN      ] MultiplyTest.Multiply_Success
+[       OK ] MultiplyTest.Multiply_Success (0 ms)
+[----------] 1 test from MultiplyTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"MultiplyTest.Multiply_Success" end time: Nov 20 02:02 +03
+"MultiplyTest.Multiply_Success" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: MultiplyTest.Multiply_ByZero
+2/5 Test: MultiplyTest.Multiply_ByZero
+Command: "/mnt/c/Users/user/Desktop/TTECH/my_project/build/hello_test" "--gtest_filter=MultiplyTest.Multiply_ByZero" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/user/Desktop/TTECH/my_project/build
+"MultiplyTest.Multiply_ByZero" start time: Nov 20 02:02 +03
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MultiplyTest.Multiply_ByZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MultiplyTest
+[ RUN      ] MultiplyTest.Multiply_ByZero
+[       OK ] MultiplyTest.Multiply_ByZero (0 ms)
+[----------] 1 test from MultiplyTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"MultiplyTest.Multiply_ByZero" end time: Nov 20 02:02 +03
+"MultiplyTest.Multiply_ByZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: MultiplyTest.Multiply_NegativeNumbers
+3/5 Test: MultiplyTest.Multiply_NegativeNumbers
+Command: "/mnt/c/Users/user/Desktop/TTECH/my_project/build/hello_test" "--gtest_filter=MultiplyTest.Multiply_NegativeNumbers" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/user/Desktop/TTECH/my_project/build
+"MultiplyTest.Multiply_NegativeNumbers" start time: Nov 20 02:02 +03
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MultiplyTest.Multiply_NegativeNumbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MultiplyTest
+[ RUN      ] MultiplyTest.Multiply_NegativeNumbers
+[       OK ] MultiplyTest.Multiply_NegativeNumbers (0 ms)
+[----------] 1 test from MultiplyTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"MultiplyTest.Multiply_NegativeNumbers" end time: Nov 20 02:02 +03
+"MultiplyTest.Multiply_NegativeNumbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: MultiplyTest.Multiply_PositiveAndNegative
+4/5 Test: MultiplyTest.Multiply_PositiveAndNegative
+Command: "/mnt/c/Users/user/Desktop/TTECH/my_project/build/hello_test" "--gtest_filter=MultiplyTest.Multiply_PositiveAndNegative" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/user/Desktop/TTECH/my_project/build
+"MultiplyTest.Multiply_PositiveAndNegative" start time: Nov 20 02:02 +03
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MultiplyTest.Multiply_PositiveAndNegative
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MultiplyTest
+[ RUN      ] MultiplyTest.Multiply_PositiveAndNegative
+[       OK ] MultiplyTest.Multiply_PositiveAndNegative (0 ms)
+[----------] 1 test from MultiplyTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"MultiplyTest.Multiply_PositiveAndNegative" end time: Nov 20 02:02 +03
+"MultiplyTest.Multiply_PositiveAndNegative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: MultiplyTest.Multiply_SocketFailure
+5/5 Test: MultiplyTest.Multiply_SocketFailure
+Command: "/mnt/c/Users/user/Desktop/TTECH/my_project/build/hello_test" "--gtest_filter=MultiplyTest.Multiply_SocketFailure" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/user/Desktop/TTECH/my_project/build
+"MultiplyTest.Multiply_SocketFailure" start time: Nov 20 02:02 +03
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MultiplyTest.Multiply_SocketFailure
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MultiplyTest
+[ RUN      ] MultiplyTest.Multiply_SocketFailure
+Socket açma hatası
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: close(-1)
+          Returns: 0
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/main/docs/gmock_cook_book.md#knowing-when-to-expect for details.
+[       OK ] MultiplyTest.Multiply_SocketFailure (0 ms)
+[----------] 1 test from MultiplyTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"MultiplyTest.Multiply_SocketFailure" end time: Nov 20 02:02 +03
+"MultiplyTest.Multiply_SocketFailure" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 20 02:02 +03
